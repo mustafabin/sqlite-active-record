@@ -1,5 +1,9 @@
 puts "🌱 Seeding data..."
-
+require 'faker'
+# puts Faker::Game.title
+# puts Faker::Game.genre
+# puts Faker::Game.platform
+# puts Faker::Lorem.sentence
 # run a loop 50 times
 50.times do
   # create a game with random data
