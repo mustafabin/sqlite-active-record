@@ -5,6 +5,8 @@ require 'faker'
 # puts Faker::Game.platform
 # puts Faker::Lorem.sentence
 # run a loop 50 times
+Game.destroy_all()
+Review.destroy_all()
 50.times do
   # create a game with random data
   game = Game.create(
